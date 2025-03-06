@@ -10,6 +10,8 @@
 
 import './commands/ui.ts';
 
+// Helper hook to set baseUrl according to test type
+// https://docs.cypress.io/app/core-concepts/best-practices#Setting-a-Global-baseUrl
 before(() => {
   const apiTestsFilePath = 'cypress/e2e/api';
   const uiTestsFilePath = 'cypress/e2e/ui';

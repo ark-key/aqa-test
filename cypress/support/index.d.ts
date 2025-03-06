@@ -1,3 +1,10 @@
+// ***********************************************************
+// support/index.d.ts is used to extend Cypress
+// types with custom commands and env types.
+//
+// https://docs.cypress.io/app/tooling/typescript-support#Types-for-Custom-Commands
+// ***********************************************************
+
 import type { UILoginProps } from './commands/ui';
 
 interface Env {

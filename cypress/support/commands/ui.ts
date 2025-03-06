@@ -10,6 +10,11 @@ export interface UILoginProps {
   password: string;
 }
 
+// Login command for ui tests.
+// Should use programmatic login without the usage of UI,
+// as per https://docs.cypress.io/app/core-concepts/best-practices#Organizing-Tests-Logging-In-Controlling-State.
+// But as the website under test has no means to perform api login
+// we are performing login through UI.
 Cypress.Commands.add('ui:login', ({ username, password }: UILoginProps) => {
   Cypress.log({
     name: 'login',

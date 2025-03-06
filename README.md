@@ -6,9 +6,7 @@
 2. Open cloned repository and run `npm i` to install dependencies
 3. Rename `cypress.env.example.json` to `cypress.env.json`
 
-> `cypress.env.json` is a env file for secrets and sensitive variables
-
-> Note: for the purpose of brevity, all required env variable are already set
+> Note: `cypress.env.json` is a env file for secrets and sensitive variables. For the purpose of brevity, all required env variable are already set
 
 ## Usage
 

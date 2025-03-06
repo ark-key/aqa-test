@@ -15,5 +15,5 @@
 
 ## Documentation
 
-- Test Cases are located at `docs/test-cases`
-- Bug Reports are located at `docs/bug-reports`
+- Test Cases are located at [`docs/test-cases`](docs/test-cases)
+- Bug Reports are located at [`docs/bug-reports`](docs/bug-reports)

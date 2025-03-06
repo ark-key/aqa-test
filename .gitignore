@@ -1,6 +1,9 @@
 # cypress env file for secrets and sensitive variables
 cypress.env.json
 
+# test artifacts
+cypress/screenshots
+
 # node environment 
 /env
 

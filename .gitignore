@@ -1,0 +1,12 @@
+# cypress env file for secrets and sensitive variables
+cypress.env.json
+
+# node environment 
+/env
+
+node_modules
+
+# vscode settings
+.vscode
+
+.DS_Store

@@ -12,3 +12,8 @@
 
 - `npm run cy:open` to open Cypress in the interactive GUI
 - `npm run` to run tests from the CLI without the GUI
+
+## Documentation
+
+- Test Cases are located at `docs/test-cases`
+- Bug Reports are located at `docs/bug-reports`

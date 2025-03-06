@@ -11,7 +11,7 @@
 ## Usage
 
 - `npm run cy:open` to open Cypress in the interactive GUI
-- `npm run` to run tests from the CLI without the GUI
+- `npm run cy:run` to run tests from the CLI without the GUI
 
 ## Documentation
 
